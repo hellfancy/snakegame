@@ -49,7 +49,7 @@ export default {
     //   data: {
     //     username: 'yxc2',
     //     password: "123",
-    //     comfirmedPassword: "123"
+    //     confirmedPassword: "123"
     //   },
     //   success(resp) {
     //     console.log(resp);
