@@ -43,7 +43,7 @@ public class AddServiceImpl implements AddService {
             return map;
         }
 
-        if (description != null || description.length() == 0) {
+        if (description == null || description.length() == 0) {
             description = "这里啥也没有~~";
         }
 
