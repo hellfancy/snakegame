@@ -12,6 +12,8 @@ import java.util.List;
 @AllArgsConstructor
 public class Player {
     private Integer id;
+    private Integer BotId; // -1表示亲自出马
+    private String BotCode;
     private Integer sx;
     private Integer sy;
     private List<Integer> steps;
