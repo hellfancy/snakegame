@@ -2,8 +2,8 @@ package com.snakegame.backend.service.impl.user.account;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.snakegame.backend.mapper.UserMapper;
-import com.snakegame.backend.pojo.User;
-import com.snakegame.backend.service.user.account.RegisterService;
+import com.snakegame.backend.mapper.pojo.User;
+import com.snakegame.backend.controller.record.service.user.account.RegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

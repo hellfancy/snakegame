@@ -1,4 +1,4 @@
-package com.snakegame.backend.pojo;
+package com.snakegame.backend.mapper.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

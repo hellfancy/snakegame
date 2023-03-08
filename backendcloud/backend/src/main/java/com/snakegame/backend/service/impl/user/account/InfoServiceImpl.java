@@ -1,11 +1,10 @@
 package com.snakegame.backend.service.impl.user.account;
 
-import com.snakegame.backend.pojo.User;
+import com.snakegame.backend.mapper.pojo.User;
+import com.snakegame.backend.controller.record.service.user.account.InfoService;
 import com.snakegame.backend.service.impl.utils.UserDetailsImpl;
-import com.snakegame.backend.service.user.account.InfoService;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

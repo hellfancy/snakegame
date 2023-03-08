@@ -1,10 +1,10 @@
 package com.snakegame.backend.service.impl.user.bot;
 
 import com.snakegame.backend.mapper.BotMapper;
-import com.snakegame.backend.pojo.Bot;
-import com.snakegame.backend.pojo.User;
+import com.snakegame.backend.mapper.pojo.Bot;
+import com.snakegame.backend.mapper.pojo.User;
+import com.snakegame.backend.controller.record.service.user.bot.RemoveService;
 import com.snakegame.backend.service.impl.utils.UserDetailsImpl;
-import com.snakegame.backend.service.user.bot.RemoveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

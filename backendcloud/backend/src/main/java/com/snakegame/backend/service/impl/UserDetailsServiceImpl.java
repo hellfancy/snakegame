@@ -2,7 +2,7 @@ package com.snakegame.backend.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.snakegame.backend.mapper.UserMapper;
-import com.snakegame.backend.pojo.User;
+import com.snakegame.backend.mapper.pojo.User;
 import com.snakegame.backend.service.impl.utils.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

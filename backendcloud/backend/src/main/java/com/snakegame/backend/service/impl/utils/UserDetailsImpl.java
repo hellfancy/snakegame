@@ -1,6 +1,6 @@
 package com.snakegame.backend.service.impl.utils;
 
-import com.snakegame.backend.pojo.User;
+import com.snakegame.backend.mapper.pojo.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

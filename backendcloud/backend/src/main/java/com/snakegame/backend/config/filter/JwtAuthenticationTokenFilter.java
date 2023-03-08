@@ -1,7 +1,7 @@
 package com.snakegame.backend.config.filter;
 
 import com.snakegame.backend.mapper.UserMapper;
-import com.snakegame.backend.pojo.User;
+import com.snakegame.backend.mapper.pojo.User;
 import com.snakegame.backend.service.impl.utils.UserDetailsImpl;
 import com.snakegame.backend.utils.JwtUtil;
 import io.jsonwebtoken.Claims;

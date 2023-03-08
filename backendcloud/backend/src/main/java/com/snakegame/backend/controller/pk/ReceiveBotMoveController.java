@@ -1,6 +1,6 @@
 package com.snakegame.backend.controller.pk;
 
-import com.snakegame.backend.service.pk.ReceiveBotMoveService;
+import com.snakegame.backend.controller.record.service.pk.ReceiveBotMoveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,8 +1,8 @@
 package com.snakegame.backend.service.impl.user.account;
 
-import com.snakegame.backend.pojo.User;
+import com.snakegame.backend.mapper.pojo.User;
+import com.snakegame.backend.controller.record.service.user.account.LoginService;
 import com.snakegame.backend.service.impl.utils.UserDetailsImpl;
-import com.snakegame.backend.service.user.account.LoginService;
 import com.snakegame.backend.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

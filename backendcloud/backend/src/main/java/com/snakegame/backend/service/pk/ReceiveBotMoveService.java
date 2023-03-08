@@ -1,4 +1,4 @@
-package com.snakegame.backend.service.pk;
+package com.snakegame.backend.controller.record.service.pk;
 
 import org.springframework.stereotype.Service;
 

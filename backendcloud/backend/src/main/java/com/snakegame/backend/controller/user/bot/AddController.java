@@ -1,6 +1,6 @@
 package com.snakegame.backend.controller.user.bot;
 
-import com.snakegame.backend.service.user.bot.AddService;
+import com.snakegame.backend.controller.record.service.user.bot.AddService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

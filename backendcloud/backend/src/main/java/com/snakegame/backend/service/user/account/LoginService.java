@@ -1,4 +1,4 @@
-package com.snakegame.backend.service.user.account;
+package com.snakegame.backend.controller.record.service.user.account;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.snakegame.backend.service.user.bot;
+package com.snakegame.backend.controller.record.service.user.bot;
 
 import java.util.Map;
 

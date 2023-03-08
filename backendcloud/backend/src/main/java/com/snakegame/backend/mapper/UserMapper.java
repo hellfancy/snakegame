@@ -1,7 +1,7 @@
 package com.snakegame.backend.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.snakegame.backend.pojo.User;
+import com.snakegame.backend.mapper.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

@@ -1,7 +1,7 @@
 package com.snakegame.backend.controller.user.bot;
 
-import com.snakegame.backend.pojo.Bot;
-import com.snakegame.backend.service.user.bot.GetListService;
+import com.snakegame.backend.mapper.pojo.Bot;
+import com.snakegame.backend.controller.record.service.user.bot.GetListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

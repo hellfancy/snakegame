@@ -2,7 +2,7 @@ package com.snakegame.backend.service.impl.pk;
 
 import com.snakegame.backend.consumer.WebSocketServer;
 import com.snakegame.backend.consumer.utils.Game;
-import com.snakegame.backend.service.pk.ReceiveBotMoveService;
+import com.snakegame.backend.controller.record.service.pk.ReceiveBotMoveService;
 import org.springframework.stereotype.Service;
 
 @Service

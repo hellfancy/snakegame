@@ -7,10 +7,8 @@ import com.snakegame.backend.consumer.utils.JwtAuthentication;
 import com.snakegame.backend.mapper.BotMapper;
 import com.snakegame.backend.mapper.RecordMapper;
 import com.snakegame.backend.mapper.UserMapper;
-import com.snakegame.backend.pojo.Bot;
-import com.snakegame.backend.pojo.User;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
+import com.snakegame.backend.mapper.pojo.Bot;
+import com.snakegame.backend.mapper.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.LinkedMultiValueMap;
@@ -21,9 +19,7 @@ import javax.websocket.*;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
-import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 @Component
 @ServerEndpoint("/websocket/{token}")  // 注意不要以'/'结尾
@@ -33,7 +29,7 @@ public class WebSocketServer {
     private User user;
     private Session session = null;
 
-    private static UserMapper userMapper;
+    public static UserMapper userMapper;
     private static BotMapper botMapper;
     public static RecordMapper recordMapper;
     public static RestTemplate restTemplate;
